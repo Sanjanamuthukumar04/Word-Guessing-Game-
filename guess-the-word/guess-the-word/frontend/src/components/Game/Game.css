@@ -1,0 +1,72 @@
+.game-container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.game-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.game-header h2 {
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.game-header p {
+  color: #666;
+  font-size: 14px;
+}
+
+.game-message {
+  text-align: center;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.game-message.success {
+  background-color: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+}
+
+.game-message.error {
+  background-color: #f8d7da;
+  color: #721c24;
+  border: 1px solid #f5c6cb;
+}
+
+.new-game-btn {
+  margin-top: 10px;
+}
+
+.game-board {
+  margin-bottom: 30px;
+}
+
+.game-instructions {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  font-size: 14px;
+  color: #666;
+}
+
+.game-instructions p {
+  margin: 5px 0;
+}
+
+/* Responsive design */
+@media (max-width: 480px) {
+  .game-container {
+    padding: 10px;
+  }
+  
+  .game-header h2 {
+    font-size: 1.5rem;
+  }
+}

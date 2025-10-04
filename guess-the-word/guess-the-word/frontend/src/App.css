@@ -1,0 +1,59 @@
+.App {
+  min-height: 100vh;
+}
+
+.dashboard-nav {
+  background: #343a40;
+  color: white;
+  padding: 1rem 0;
+}
+
+.nav-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-user {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.btn-sm {
+  padding: 5px 10px;
+  font-size: 14px;
+}
+
+.home-buttons {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.game-rules {
+  margin-top: 30px;
+  padding: 20px;
+  background: #f8f9fa;
+  border-radius: 8px;
+}
+
+.game-rules h3 {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.game-rules ul {
+  text-align: left;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.game-rules li {
+  margin-bottom: 8px;
+  line-height: 1.5;
+}
