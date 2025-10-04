@@ -112,9 +112,7 @@ const AdminPanel = () => {
           <h1>Admin Panel - Guess The Word</h1>
           <div className="nav-user">
             <span>Admin: {user.email}</span>
-            <a href="/dashboard" className="btn btn-secondary btn-sm">
-              Play Game
-            </a>
+           
             <button onClick={handleSignOut} className="btn btn-secondary btn-sm">
               Logout
             </button>
@@ -229,5 +227,6 @@ const AdminPanel = () => {
     </div>
   );
 };
+
 
 export default AdminPanel;
